@@ -1,4 +1,4 @@
-import ViajeModel from '../../models/viaje';
+import ViajeModel from '../../models/Viaje';
 import fs from 'fs';
 import util from 'util';
 
