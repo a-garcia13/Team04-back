@@ -39,4 +39,5 @@ const Activity ={
         return res.status(204).send({'message': 'activity deleted'});
     }
 }
+
 export default Activity;
