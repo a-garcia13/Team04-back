@@ -10,10 +10,12 @@ import Hostal from './src/controllers/Hostal';
 import Viaje from './src/controllers/Viaje';
 import Transportes from './src/controllers/Transportes';
 import Multitravel from './src/controllers/Multitravel';
+import cors from 'cors';
 
 
 
 const app = express()
+app.use(cors());
 
 app.use(express.json())
 
@@ -110,5 +112,6 @@ app.get('/', (req, res) => {
   return res.status(200).send({'message': 'Viajes back Team-04'});
 })
 
-app.listen(3001)
-console.log('app running on port ', 3001);
+app.listen(process.env.PORT || 3001, function(){
+  console.log('Your node js server is running in port', 3001);
+});

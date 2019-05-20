@@ -23,3 +23,13 @@
   rutas: [ 'muelle cartagena', 'muelle kingston' ],
   origen: 'cartagena',
   destino: 'kingston' }
+{ id: 'e5ca8b64-8656-4d5e-b817-3ee610542cc3',
+  nombreEmpresa: 'empresa1',
+  rutas: [ 'muelle cartagena', 'muelle kingston' ],
+  origen: 'cartagena',
+  destino: 'kingston' }
+{ id: '6e92c976-08ba-4833-a5d9-ce5a1828f552',
+  nombreEmpresa: 'empresa1',
+  rutas: [ 'muelle cartagena', 'muelle kingston' ],
+  origen: 'cartagena',
+  destino: 'kingston' }

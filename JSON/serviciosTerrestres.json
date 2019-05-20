@@ -1,0 +1,5 @@
+{ id: '580f2ea3-e134-4820-9188-f2a17520bcbb',
+  nombreEmpresa: 'empresa1',
+  rutas: [ 'autopista norte', 'autopista occidental' ],
+  origen: 'bogotá',
+  destino: 'medellín' }

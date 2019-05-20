@@ -3,21 +3,25 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "node ./build/server.js",
     "build": "babel server.js --out-dir build",
     "dev-start": "babel-watch server.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
     "debug": "~2.6.9",
     "express": "^4.16.4",
     "fs": "0.0.1-security",
     "http-errors": "~1.6.2",
     "moment": "^2.24.0",
     "morgan": "~1.9.0",
-    "pug": "2.0.0-beta11",
     "util": "^0.11.1",
-    "uuid": "^3.3.2"
+    "uuid": "^3.3.2",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-cli": "^6.26.0",
+    "babel-watch": "^7.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",

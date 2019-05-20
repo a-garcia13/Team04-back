@@ -16980,3 +16980,42 @@
     destino: 'Cartagena',
     subViajes: [ [Object] ],
     viajeAgendado: true } ]
+{ idUsuario: undefined,
+  id: '61c24662-2327-444e-bed3-2bb75e6035c2',
+  nombre: 'Cartagena - Kingston',
+  empresa: 'empresa1',
+  fechaInicio: 'Unlimited',
+  fechaFin: 'Unlimited',
+  origen: '',
+  destino: '',
+  subViajes: '',
+  viajeAgendado: '' }
+[ { idUsuario: undefined,
+    id: '61c24662-2327-444e-bed3-2bb75e6035c2',
+    nombre: 'Cartagena - Kingston',
+    empresa: 'empresa1',
+    fechaInicio: 'Unlimited',
+    fechaFin: 'Unlimited',
+    origen: '',
+    destino: '',
+    subViajes: '',
+    viajeAgendado: '' } ]
+{ idUsuario: undefined,
+  id: 'f7cc83cc-b075-47eb-ae96-eac21d02bf18',
+  nombre: 'viaje1',
+  empresa: 'empresa1',
+  fechaInicio: '2019-05-20T06:57:13.651Z',
+  fechaFin: '2019-05-20T06:57:13.651Z',
+  origen: 'Bogotá',
+  destino: 'Cartagena',
+  subViajes:
+   [ { nombre: 'sub-viaje0',
+       empresa: 'empresa',
+       metodoDeViaje: 'Viaje Aire',
+       fechaInicio: '20-5-2019',
+       fechaFin: '20-5-2019',
+       origen: 'Bogotá',
+       destino: 'Cartagena' } ],
+  viajeAgendado: true }
+[]
+[]
