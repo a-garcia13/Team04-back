@@ -20,5 +20,7 @@
     "@babel/preset-env": "^7.3.4",
     "babel-cli": "^6.26.0",
     "babel-watch": "^7.0.0"
+  },"engines":{
+    "node": "10"
   }
 }
